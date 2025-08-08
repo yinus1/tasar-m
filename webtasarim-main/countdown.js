@@ -1,5 +1,5 @@
 // Özel günü belirleyin
-const eventDate = new Date("2025-07-23T15:30:00").getTime(); // Örneğin, Sevgililer Günü
+const eventDate = new Date("2026-07-29T15:30:00").getTime(); // Örneğin, Sevgililer Günü
 
 function updateCountdown() {
     const now = new Date().getTime();
@@ -22,3 +22,4 @@ function updateCountdown() {
 
 // Geri sayımı her saniye güncelleyin
 setInterval(updateCountdown, 1000);
+
