@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevgilim İçin Özel</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="music.js"></script> <!-- Müzik Kontrolü -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sevgilim, Hoş Geldin! ❤️</h1>
+            <p>Bu site senin için özel olarak hazırlandı...</p>
+            <a href="hikayemiz.html">Hikayemiz</a> <!-- Hikaye sayfasına bağlantı -->
+            <a href="galeri.html">Fotoğraf Albümü</a> <!-- Albüm sayfası bağlantısı -->
+            <a href="takvim.html">Özel Günlerimiz</a> <!-- Takvim sayfası bağlantısı -->
+            <a href="gizli-mesaj.html">Gizli Mesajı Göster</a> <!--Gizli mesaj bağlantısı-->
+
+        </header>
+        <div class="photos">
+            <img src="images/photo1.jpg" alt="Anı 1">
+            <img src="images/photo2.jpg" alt="Anı 2">
+            <img src="images/photo3.jpg" alt="Anı 3">
+        </div>
+        <footer>
+            <p>❤️ Her zaman seni seveceğim. ❤️</p>
+        </footer>
+    </div>
+    <!-- JavaScript Dosyasının Bağlantısı -->
+    <script src="script.js"></script>
+</body>
+</html>
+<section class="music-player">
+    <h2>Bizim Şarkımız</h2>
+    <audio controls>
+        <source src="music/Ama_Yine_Sen.mp3" type="audio/mp3">
+        Tarayıcınız bu ses formatını desteklemiyor.
+    </audio>
+</section>
+<section class="surprise-box">
+    <h2>Bugün İçin Özel Bir Mesaj 💌</h2>
+    <p id="surprise-message">Burada romantik bir sürpriz göreceksin...</p>
+    <button onclick="generateSurprise()">Yeni Bir Söz Göster</button>
+</section>
+
+
+
+

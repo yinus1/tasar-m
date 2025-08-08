@@ -1,0 +1,295 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6;
+    color: #b30000;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+header a {
+    text-decoration: none;
+    color: #b30000;
+    font-size: 1.1em;
+    border: 1px solid #b30000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ffe6e6;
+    transition: background-color 0.3s ease;
+}
+
+header a:hover {
+    background-color: #b30000;
+    color: white;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.photos img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #b30000;
+}
+
+.story {
+    font-size: 1.2em;
+    line-height: 1.6;
+    background: #fff5f5;
+    border: 1px solid #b30000;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #b30000;
+    font-size: 1.1em;
+    border: 1px solid #b30000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #ffe6e6;
+    transition: background-color 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #b30000;
+    color: white;
+}
+
+.countdown {
+    margin: 20px auto;
+    text-align: center;
+    background: #fff5f5;
+    border: 1px solid #b30000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.countdown h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #b30000;
+}
+
+#countdown-timer {
+    font-size: 1.5em;
+    color: #333;
+    margin-top: 10px;
+}
+
+#countdown-timer span {
+    font-weight: bold;
+    color: #b30000;
+}
+.music-player {
+    text-align: center;
+    margin: 20px auto;
+    background: #fff5f5;
+    border: 1px solid #b30000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.music-player h2 {
+    font-size: 1.8em;
+    color: #b30000;
+    margin-bottom: 10px;
+}
+
+.music-player audio {
+    width: 100%;
+    outline: none;
+}
+.surprise-box {
+    margin: 20px auto;
+    text-align: center;
+    background: #fff5f5;
+    border: 1px solid #b30000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.surprise-box h2 {
+    font-size: 1.8em;
+    color: #b30000;
+}
+
+.surprise-box p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+.surprise-box button {
+    background-color: #b30000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.surprise-box button:hover {
+    background-color: #ff6666;
+}
+.secret-message {
+    margin: 30px auto;
+    text-align: center;
+    background-color: #fef2f2;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #e00000;
+    max-width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.secret-message input {
+    padding: 10px;
+    font-size: 1em;
+    margin-top: 10px;
+    border: 1px solid #b30000;
+    border-radius: 5px;
+    width: 80%;
+    box-sizing: border-box;
+}
+
+.secret-message button {
+    padding: 10px 20px;
+    background-color: #b30000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.secret-message button:hover {
+    background-color: #ff6666;
+}
+
+.secret-message #secret-message {
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #333;
+}
+
+.secret-message #error-message {
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+/* Ana sayfadaki bağlantı butonları için stil */
+header a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    background-color: #e00000; /* Buton rengi */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* Butona üzerine gelindiğinde değişen stil */
+header a:hover {
+    background-color: #ff4c4c;
+    transform: translateY(-5px); /* Hover efektiyle yukarı kayma */
+}
+
+/* Butonların daha modern görünmesi için kutu gölgesi */
+header a:active {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+/* Çark kapsayıcı düzeni */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    margin: 20px auto;
+    overflow: hidden; /* Dönme sırasında taşan fotoğrafları gizle */
+}
+
+/* Çark içeriği */
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Fotoğraf kayma efekti */
+}
+
+/* Fotoğrafların stilini ayarlıyoruz */
+.carousel-item {
+    width: 100%; /* Her fotoğraf yalnızca bir kez görünecek */
+    border-radius: 25px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Sağ ve sol butonlar */
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+@media (max-width: 768px) {
+    .carousel-item {
+        width: 80%; /* Küçük ekranlar için fotoğraf boyutlarını küçültüyoruz */
+    }
+}

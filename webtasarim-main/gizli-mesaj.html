@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gizli Mesaj</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="music.js"></script> <!-- Müzik Kontrolü -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Gizli Mesajı Görmek İçin Şifreyi Gir!</h1>
+            <a href="index.html">Ana Sayfaya Dön</a> <!-- Ana sayfaya bağlantı -->
+        </header>
+
+        <!-- Şifreli Mesaj Alanı -->
+        <section class="secret-message">
+            <h2>Gizli Mesajı Görmek İçin Şifreyi Gir!</h2>
+            <input type="password" id="password" placeholder="Şifreyi Girin...">
+            <button onclick="unlockMessage()">Mesajı Göster</button>
+            <p id="secret-message" style="display: none;">Sana her şeyimle aşığım. 💖</p>
+            <p id="error-message" style="color: red; display: none;">Şifreyi yanlış girdiniz, lütfen tekrar deneyin.</p>
+        </section>
+    </div>
+
+    <!-- JavaScript Dosyasının Bağlantısı -->
+    <script src="script.js"></script>
+</body>
+</html>
